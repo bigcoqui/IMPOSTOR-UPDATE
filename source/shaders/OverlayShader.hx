@@ -26,6 +26,7 @@ class OverlayShader extends FlxShader
 
 		void main()
 		{
+		  #pragma body
             // Get the current pixel from the base layer.
 			vec4 base = texture2D(bitmap, openfl_TextureCoordv);
             // Get the current pixel from the overlay layer.
