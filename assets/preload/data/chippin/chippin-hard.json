@@ -2,7 +2,7 @@
 	"song": {
 		"player1": "pip",
 		"events": [],
-		"gfVersion": "gf",
+		"gfVersion": "invisigf",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -1009,13 +1009,6 @@
 						3,
 						"Play Animation",
 						"No Animation"
-					],
-					[
-						30428.5714285714,
-						-1,
-						"Play Animation",
-						"pip",
-						"Dad"
 					]
 				],
 				"lengthInSteps": 16,
@@ -1026,11 +1019,6 @@
 					[
 						30857.1428571429,
 						1,
-						0
-					],
-					[
-						31500,
-						3,
 						0
 					],
 					[
@@ -1072,6 +1060,11 @@
 						32357.1428571429,
 						1,
 						0
+					],
+					[
+						31500,
+						3,
+						107.142857142857
 					]
 				],
 				"lengthInSteps": 16,
@@ -1086,11 +1079,6 @@
 					],
 					[
 						32785.7142857143,
-						0,
-						0
-					],
-					[
-						32892.8571428571,
 						0,
 						0
 					],
@@ -1128,6 +1116,11 @@
 						34071.4285714286,
 						3,
 						0
+					],
+					[
+						32892.8571428571,
+						0,
+						107.142857142857
 					]
 				],
 				"lengthInSteps": 16,
@@ -2976,6 +2969,25 @@
 			},
 			{
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 140
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
@@ -2986,7 +2998,7 @@
 		],
 		"player2": "cval",
 		"allowBFskin": true,
-		"player3": "gfmira",
+		"player3": "gf",
 		"allowGFskin": true,
 		"song": "Chippin",
 		"allowPet": true,
